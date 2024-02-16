@@ -1,1 +1,42 @@
 # Olá mundo! 
+
+# Introdução ao inicio ao HTML 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Stylegaleria.css"> //para vincular css
+    <title>GALERIA</title> //titulo que vai ficar no topo 
+</head>
+<body>
+<header> // barra de navegação 
+    <nav>
+<ul>
+    <li><a class="GALERIAINICIAL" href="#home">Quem somos</a></li>
+    <li><a href="paisagens.html">Paisagens</a></li>
+    <li><a href="familiar.html">Familiar</a></li>
+    <li><a href="festas.html">Festas</a></li>
+    <li><a href="competicoes.html">Competições</a></li>
+    <li><a href="eventos.html">Eventos</a></li>
+  </ul>
+</nav>
+</header>
+<h1> Sua Lembrança </h1>
+</body>
+<footer> //roda pé com informacoes de contato
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+    <img src="../Prazer, Leticia!/git.png"></img>
+    <p>Github</p>
+</a>
+<a href="https://br.linkedin.com/" target="_blank" rel="noopener noreferrer">
+    <img src="../Prazer, Leticia!/linkedin.png"></img>
+    <p>Linkedin</p>
+</a>
+<a href="https://www.youtube.com/c/" target="_blank" rel="noopener noreferrer">
+    <img src="../Prazer, Leticia!/whats.png"></img>
+    <p >Whatsapp</p> </a>
+</footer>
+<footer>  <p> &copy; 2024 Galeria de Fotos. Todos os direitos reservados.</p> </footer>
+</html>
